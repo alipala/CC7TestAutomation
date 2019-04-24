@@ -1,0 +1,1 @@
+java "-Dwebdriver.gecko.driver=geckodriver.exe" -jar "selenium-server.jar" -role webdriver -hub "http://192.168.3.96:4444/grid/register" -port 5566
