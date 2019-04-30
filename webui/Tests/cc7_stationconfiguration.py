@@ -16,7 +16,7 @@ class StationConfigurationTest(TestBase):
 
     def test_01_login(self):
         driver = self.driver
-        driver.get("https://192.168.3.89")
+        driver.get("https://192.168.3.55")
         login = LoginPage(driver)
         login.enter_username("Admin")
         login.enter_password("CloudConnect_7")
@@ -32,7 +32,12 @@ class StationConfigurationTest(TestBase):
         configuration.enter_ip_address("192.168.3.90")
         configuration.select_controller_family()
         configuration.click_save()
-
+        time.sleep(5)
+        configuration.apply_changes()
+        print("Closure activities...")
+        time.sleep(5)
+        homepage = HomePage(driver)
+        homepage.click_logout()
 
 
 if __name__ == "__main__":

@@ -16,7 +16,7 @@ class LoginTest(TestBase):
 
     def test_01_login_validation(self):
         driver = self.driver
-        driver.get("https://192.168.3.89")
+        driver.get("https://192.168.3.56")
         login = LoginPage(driver)
         login.enter_username("Admin")
         login.enter_password("CloudConnect_7")

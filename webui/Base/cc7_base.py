@@ -3,6 +3,7 @@ from selenium import webdriver
 
 class TestBase(unittest.TestCase):
 
+
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Chrome(executable_path="D:/CC7TestAutomation/webui/drivers/chromedriver.exe")
