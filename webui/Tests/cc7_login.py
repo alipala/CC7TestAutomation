@@ -16,19 +16,19 @@ class LoginTest(TestBase):
 
     def test_01_login_validation(self):
         driver = self.driver
-        driver.get("https://192.168.3.56")
+        driver.get("https://192.168.3.89")
         login = LoginPage(driver)
         login.enter_username("Admin")
         login.enter_password("CloudConnect_7")
         login.click_login()
 
         homepage = HomePage(driver)
-        time.sleep(5)
-        homepage.click_logout()
         time.sleep(2)
-        wait = WebDriverWait(driver, 15)
-        element = wait.until(EC.visibility_of_element_located((By.ID, 'ccConfirmWindowN')))  # Confirm Popup
-        driver.find_element_by_id('ccConfirmWindowN').click()
+        homepage.click_logout()
+
+        # wait = WebDriverWait(driver, 15)
+        # element = wait.until(EC.visibility_of_element_located((By.ID, 'ccConfirmWindowY')))  # Confirm Popup
+        # driver.find_element_by_id('ccConfirmWindowY').click()
 
 if __name__ == "__main__":
     unittest.main()
