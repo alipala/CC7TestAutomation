@@ -1,5 +1,6 @@
 from webui.Locators.locators import Locators
 import os
+import sys
 import time
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
@@ -35,17 +36,20 @@ class FirmwareUpdatePage:
             print("Page is ready...")
         except TimeoutException:
             print("Loading took too much time:", self.firmware_update_confirm_window)
-
+        finally:
+            time.sleep(150)
     def ping_server(self):
-        cc7_server = "https://192.168.3.89"
 
-        response = os.system("ping -t" + cc7_server)
+        cc7_server = "192.168.3.89"
+        response = os.system("ping -t "+ cc7_server)
+
         if response == 0:
-            ping_status = cc7_server, "is up!"
+            print(cc7_server, "is up!")
+            sys.exit(0)
         else:
             ping_status = "Failed with", response
+            sys.exit(ping_status)
 
-        return ping_status
 
 
 

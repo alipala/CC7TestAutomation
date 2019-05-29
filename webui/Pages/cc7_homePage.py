@@ -16,7 +16,7 @@ class HomePage():
     def click_logout(self):
         self.driver.find_element_by_xpath(self.logout_button_xpath).click()
         time.sleep(3)
-        # WebDriverWait(self.driver, 10).until(
-        #     EC.visibility_of_element_located((By.XPATH, self.logout_confirm_xpath))).click()
+        WebDriverWait(self.driver, 10).until(
+            EC.visibility_of_element_located((By.XPATH, self.logout_confirm_xpath))).click()
 
 

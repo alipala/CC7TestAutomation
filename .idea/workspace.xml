@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a71fc2ea-d3df-4cfa-8e13-94f58d99fab7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/webui/Locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/webui/Locators/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webui/Pages/cc7_firmwareupdatePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/webui/Pages/cc7_firmwareupdatePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webui/Pages/cc7_homePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/webui/Pages/cc7_homePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webui/TestSuites/cc7__testsuite.py" beforeDir="false" afterPath="$PROJECT_DIR$/webui/TestSuites/cc7__testsuite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webui/Tests/cc7_firmwareupdate.py" beforeDir="false" afterPath="$PROJECT_DIR$/webui/Tests/cc7_firmwareupdate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webui/Tests/cc7_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/webui/Tests/cc7_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webui/Tests/cc7_stationconfiguration.py" beforeDir="false" afterPath="$PROJECT_DIR$/webui/Tests/cc7_stationconfiguration.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,14 +16,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.55398774">
+    <splitter split-orientation="horizontal" split-proportion="0.4797546">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/webui/Locators/locators.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="179">
-                  <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+                <state relative-caret-position="196">
+                  <caret line="12" column="24" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -29,8 +31,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/webui/Pages/cc7_firmwareupdatePage.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+                <state relative-caret-position="396">
+                  <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
                   <folding>
                     <element signature="e#0#44#0" expanded="true" />
                   </folding>
@@ -41,8 +43,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/webui/Tests/cc7_firmwareupdate.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -55,12 +57,24 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/webui/Pages/cc7_stationconfigurationPage.py">
+            <entry file="file://$PROJECT_DIR$/webui/Tests/cc7_login.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="110">
-                  <caret line="26" column="41" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="41" />
+                <state relative-caret-position="281">
+                  <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="45" />
                   <folding>
-                    <element signature="e#0#44#0" expanded="true" />
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/webui/Tests/cc7_stationconfiguration.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="352">
+                  <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -103,13 +117,13 @@
         <option value="$PROJECT_DIR$/webui/Reports/TestResults_webui.Tests.cc7_stationconfiguration.StationConfigurationTest_2019-04-30_11-23-34.html" />
         <option value="$PROJECT_DIR$/webui/Pages/cc7_stationconfigurationPage.py" />
         <option value="$PROJECT_DIR$/webui/Base/cc7_base.py" />
-        <option value="$PROJECT_DIR$/webui/Tests/cc7_stationconfiguration.py" />
-        <option value="$PROJECT_DIR$/webui/Pages/cc7_homePage.py" />
         <option value="$PROJECT_DIR$/webui/Pages/cc7_firmwareupdatePage,.py" />
-        <option value="$PROJECT_DIR$/webui/Tests/cc7_login.py" />
         <option value="$PROJECT_DIR$/webui/TestSuites/cc7__testsuite.py" />
         <option value="$PROJECT_DIR$/webui/Locators/locators.py" />
         <option value="$PROJECT_DIR$/webui/Pages/cc7_firmwareupdatePage.py" />
+        <option value="$PROJECT_DIR$/webui/Pages/cc7_homePage.py" />
+        <option value="$PROJECT_DIR$/webui/Tests/cc7_login.py" />
+        <option value="$PROJECT_DIR$/webui/Tests/cc7_stationconfiguration.py" />
         <option value="$PROJECT_DIR$/webui/Tests/cc7_firmwareupdate.py" />
       </list>
     </option>
@@ -299,9 +313,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in cc7_firmwareupdate.py" />
+        <item itemvalue="Python tests.Unittests in cc7_login.py" />
         <item itemvalue="Python.cc7__testsuite" />
         <item itemvalue="Python tests.Unittests in cc7_stationconfiguration.py" />
-        <item itemvalue="Python tests.Unittests in cc7_login.py" />
         <item itemvalue="Python tests.Unittests for cc7_stationconfiguration.StationConfigurationTest" />
       </list>
     </recent_temporary>
@@ -328,34 +342,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 11h 41m 42s.xml">
+    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 16h 14m 59s.xml">
       <configuration name="Unittests in cc7_firmwareupdate.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 11h 42m 09s.xml">
+    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 16h 23m 34s.xml">
       <configuration name="Unittests in cc7_firmwareupdate.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 11h 43m 39s.xml">
+    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 16h 33m 43s.xml">
       <configuration name="Unittests in cc7_firmwareupdate.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 13h 17m 12s.xml">
+    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 16h 38m 11s.xml">
       <configuration name="Unittests in cc7_firmwareupdate.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 13h 45m 01s.xml">
+    <history-entry file="Unittests_in_cc7_login_py - 2019.05.29 at 13h 54m 35s.xml">
+      <configuration name="Unittests in cc7_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_cc7_login_py - 2019.05.29 at 14h 34m 24s.xml">
+      <configuration name="Unittests in cc7_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_cc7_login_py - 2019.05.29 at 16h 10m 16s.xml">
+      <configuration name="Unittests in cc7_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_cc7_login_py - 2019.05.29 at 16h 11m 23s.xml">
+      <configuration name="Unittests in cc7_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.29 at 16h 42m 02s.xml">
       <configuration name="Unittests in cc7_firmwareupdate.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 13h 49m 39s.xml">
-      <configuration name="Unittests in cc7_firmwareupdate.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 14h 06m 10s.xml">
-      <configuration name="Unittests in cc7_firmwareupdate.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 14h 10m 51s.xml">
-      <configuration name="Unittests in cc7_firmwareupdate.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 14h 22m 56s.xml">
-      <configuration name="Unittests in cc7_firmwareupdate.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.28 at 15h 50m 09s.xml">
+    <history-entry file="Unittests_in_cc7_firmwareupdate_py - 2019.05.29 at 16h 42m 36s.xml">
       <configuration name="Unittests in cc7_firmwareupdate.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -446,16 +460,6 @@
     <entry file="file://$PROJECT_DIR$/webui/Tests/cc7_datapoints.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/webui/Pages/cc7_homePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webui/Pages/cc7_firmwareupdatePage,.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -493,30 +497,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webui/Tests/cc7_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webui/Pages/cc7_datapointsPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webui/Tests/cc7_stationconfiguration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -530,27 +514,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webui/Locators/locators.py">
+    <entry file="file://$PROJECT_DIR$/webui/Pages/cc7_homePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webui/Pages/cc7_firmwareupdatePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="400">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webui/Locators/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webui/Pages/cc7_firmwareupdatePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webui/Tests/cc7_stationconfiguration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webui/Tests/cc7_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webui/Tests/cc7_firmwareupdate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="240">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
